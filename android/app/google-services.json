@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152465154973",
+    "project_id": "dbkorat-4faea",
+    "storage_bucket": "dbkorat-4faea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152465154973:android:c84f86b526618efc570574",
+        "android_client_info": {
+          "package_name": "com.arraybit.flutter_application_korat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHWT0yIkLpFRpCbpaWA5dcdDSWaz6uck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

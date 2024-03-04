@@ -21,7 +21,7 @@ class WidgetTextButtom extends StatelessWidget {
         child: WidgetText(
           text: label,
           textStyle: AppConstant().appStyle(
-              size: 15,
+              size: 18,
               fontWeight: FontWeight.bold,
               color: Color.fromARGB(255, 253, 111, 15)),
         ));
