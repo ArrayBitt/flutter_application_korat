@@ -18,8 +18,6 @@ class AuthenMobile extends StatefulWidget {
 class _AuthenMobileState extends State<AuthenMobile> {
   String? email, password;
 
-  
-
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppConstant.bgColor,
@@ -112,9 +110,8 @@ class _AuthenMobileState extends State<AuthenMobile> {
                           WidgetButtom(
                             label: 'login',
                             pressFunc: () {
-                               void login() async {
+                              void login() async {
                                 try {
-                                  
                                   final QuerySnapshot<Map<String, dynamic>>
                                       result = await FirebaseFirestore.instance
                                           .collection('userlogin')
@@ -125,14 +122,11 @@ class _AuthenMobileState extends State<AuthenMobile> {
                                           .get();
 
                                   if (result.docs.isNotEmpty) {
-                                  
                                   } else {
-                                  
                                     print(
                                         'Failed to sign in. Please check your credentials.');
                                   }
                                 } catch (e) {
-                                  
                                   print('An error occurred: $e');
                                 }
                               }

@@ -96,7 +96,7 @@ class _CreateAccountState extends State<CreateAccount> {
                     Container(
                       margin: const EdgeInsets.only(top: 5),
                       child: WidgetForm1(
-                        changFunc: (p0) {},
+                        changFunc: (p0) {    },
                         textEditingController: passwordController,
                         obsecu: true,
                       ),
